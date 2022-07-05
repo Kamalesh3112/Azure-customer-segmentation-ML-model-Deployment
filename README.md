@@ -60,4 +60,9 @@ A cloud based deployment project that was implemented using Microsoft Azure clou
 
 ![image](https://user-images.githubusercontent.com/72293918/177333631-40f4a57f-39da-4b49-9e31-92900aab35d6.png)
 
+###### Contributors for this cloud project
+> Kamalesh Selvaraj
+>, Shreya Bodla
 
+
+**The complete procedure of this machine learning project will be uploaded in the form of pdf soon into this repositery**
