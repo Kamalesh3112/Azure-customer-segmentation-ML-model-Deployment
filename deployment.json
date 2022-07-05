@@ -1,0 +1,346 @@
+{
+  "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices",
+  "name": "Microsoft.MachineLearningServices",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourcegroups/machinelearning-kamal/providers/Microsoft.MachineLearningServices/workspaces/MLdata_analaysis",
+    "marketplaceItemId": "Microsoft.MachineLearningServices",
+    "provisioningHash": "iwuh-wccbe-tt0-2enb-ioes-849e-tircx-guw6"
+  },
+  "properties": {
+    "templateHash": "12674973648147714173",
+    "parameters": {
+      "workspaceName": {
+        "type": "String",
+        "value": "MLdata_analaysis"
+      },
+      "location": {
+        "type": "String",
+        "value": "westus"
+      },
+      "resourceGroupName": {
+        "type": "String",
+        "value": "machinelearning-kamal"
+      },
+      "sku": {
+        "type": "String",
+        "value": "Basic"
+      },
+      "identityType": {
+        "type": "String",
+        "value": "systemAssigned"
+      },
+      "primaryUserAssignedIdentityResourceGroup": {
+        "type": "String",
+        "value": "machinelearning-kamal"
+      },
+      "primaryUserAssignedIdentityName": {
+        "type": "String",
+        "value": ""
+      },
+      "storageAccountOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "mldataanalaysi2608789975"
+      },
+      "storageAccountType": {
+        "type": "String",
+        "value": "Standard_LRS"
+      },
+      "storageAccountBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "storageAccountResourceGroupName": {
+        "type": "String",
+        "value": "machinelearning-kamal"
+      },
+      "storageAccountLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "storageAccountHnsEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "keyVaultOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "keyVaultName": {
+        "type": "String",
+        "value": "mldataanalaysi8605420089"
+      },
+      "keyVaultBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "keyVaultResourceGroupName": {
+        "type": "String",
+        "value": "machinelearning-kamal"
+      },
+      "keyVaultLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "applicationInsightsOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "applicationInsightsName": {
+        "type": "String",
+        "value": "mldataanalaysi5396005264"
+      },
+      "applicationInsightsResourceGroupName": {
+        "type": "String",
+        "value": "machinelearning-kamal"
+      },
+      "applicationInsightsLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "containerRegistryOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "containerRegistryName": {
+        "type": "String",
+        "value": "Kamalml"
+      },
+      "containerRegistrySku": {
+        "type": "String",
+        "value": "Basic"
+      },
+      "containerRegistryResourceGroupName": {
+        "type": "String",
+        "value": "machinelearning-kamal"
+      },
+      "containerRegistryBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "containerRegistryLocation": {
+        "type": "String",
+        "value": "westus"
+      },
+      "vnetOption": {
+        "type": "String",
+        "value": "none"
+      },
+      "vnetName": {
+        "type": "String",
+        "value": "vnauwzrcxn5bbze"
+      },
+      "vnetResourceGroupName": {
+        "type": "String",
+        "value": "machinelearning-kamal"
+      },
+      "addressPrefixes": {
+        "type": "Array",
+        "value": [
+          "10.0.0.0/16"
+        ]
+      },
+      "subnetOption": {
+        "type": "String",
+        "value": "none"
+      },
+      "subnetName": {
+        "type": "String",
+        "value": "snauwzrcxn5bbze"
+      },
+      "subnetPrefix": {
+        "type": "String",
+        "value": "10.0.0.0/24"
+      },
+      "adbWorkspace": {
+        "type": "String",
+        "value": ""
+      },
+      "confidential_data": {
+        "type": "String",
+        "value": "false"
+      },
+      "encryption_status": {
+        "type": "String",
+        "value": "Disabled"
+      },
+      "cmk_keyvault": {
+        "type": "String",
+        "value": ""
+      },
+      "resource_cmk_uri": {
+        "type": "String",
+        "value": ""
+      },
+      "cmk_storageAccountId": {
+        "type": "String",
+        "value": ""
+      },
+      "cmk_searchAccountId": {
+        "type": "String",
+        "value": ""
+      },
+      "cmk_cosmosDbId": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointType": {
+        "type": "String",
+        "value": "none"
+      },
+      "tagValues": {
+        "type": "Object",
+        "value": {}
+      },
+      "privateEndpointName": {
+        "type": "String",
+        "value": "pe"
+      },
+      "privateEndpointResourceGroupName": {
+        "type": "String",
+        "value": "machinelearning-kamal"
+      },
+      "privateEndpointSubscription": {
+        "type": "String",
+        "value": "5f5a8c88-783c-4974-a343-ccbebde95e6d"
+      },
+      "systemDatastoresAuthMode": {
+        "type": "String",
+        "value": "accessKey"
+      },
+      "publicNetworkAccess": {
+        "type": "String",
+        "value": "Enabled"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2022-07-05T11:03:38.8567633Z",
+    "duration": "PT1M2.6496567S",
+    "correlationId": "2d2d1c3e-0431-4d2a-9013-f83bc3cdc550",
+    "providers": [
+      {
+        "namespace": "Microsoft.Storage",
+        "resourceTypes": [
+          {
+            "resourceType": "storageAccounts",
+            "locations": [
+              "westus"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.KeyVault",
+        "resourceTypes": [
+          {
+            "resourceType": "vaults",
+            "locations": [
+              "westus"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.ContainerRegistry",
+        "resourceTypes": [
+          {
+            "resourceType": "registries",
+            "locations": [
+              "westus"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Insights",
+        "resourceTypes": [
+          {
+            "resourceType": "components",
+            "locations": [
+              "westus"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.MachineLearningServices",
+        "resourceTypes": [
+          {
+            "resourceType": "workspaces",
+            "locations": [
+              "westus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.Storage/storageAccounts/mldataanalaysi2608789975",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "mldataanalaysi2608789975"
+          },
+          {
+            "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.KeyVault/vaults/mldataanalaysi8605420089",
+            "resourceType": "Microsoft.KeyVault/vaults",
+            "resourceName": "mldataanalaysi8605420089"
+          },
+          {
+            "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.Insights/components/mldataanalaysi5396005264",
+            "resourceType": "Microsoft.Insights/components",
+            "resourceName": "mldataanalaysi5396005264"
+          },
+          {
+            "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.ContainerRegistry/registries/Kamalml",
+            "resourceType": "Microsoft.ContainerRegistry/registries",
+            "resourceName": "Kamalml"
+          }
+        ],
+        "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.MachineLearningServices/workspaces/MLdata_analaysis",
+        "resourceType": "Microsoft.MachineLearningServices/workspaces",
+        "resourceName": "MLdata_analaysis"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.MachineLearningServices/workspaces/MLdata_analaysis",
+            "resourceType": "Microsoft.MachineLearningServices/workspaces",
+            "resourceName": "MLdata_analaysis"
+          }
+        ],
+        "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.Resources/deployments/DeployPrivateEndpoint-4yxlorfvgucfo",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "DeployPrivateEndpoint-4yxlorfvgucfo"
+      }
+    ],
+    "outputs": {},
+    "outputResources": [
+      {
+        "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.ContainerRegistry/registries/Kamalml"
+      },
+      {
+        "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.Insights/components/mldataanalaysi5396005264"
+      },
+      {
+        "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.KeyVault/vaults/mldataanalaysi8605420089"
+      },
+      {
+        "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.MachineLearningServices/workspaces/MLdata_analaysis"
+      },
+      {
+        "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.Storage/storageAccounts/mldataanalaysi2608789975"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

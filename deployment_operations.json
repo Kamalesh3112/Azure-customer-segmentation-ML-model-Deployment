@@ -1,0 +1,99 @@
+[
+  {
+    "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/38641331E7C63BF4",
+    "operationId": "38641331E7C63BF4",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-07-05T11:03:37.519948Z",
+      "duration": "PT27.4461311S",
+      "trackingId": "33cfe94f-e241-46f5-a8c7-0946f9beae95",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.MachineLearningServices/workspaces/MLdata_analaysis",
+        "resourceType": "Microsoft.MachineLearningServices/workspaces",
+        "resourceName": "MLdata_analaysis"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/CB11DAB52B70AE6A",
+    "operationId": "CB11DAB52B70AE6A",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-07-05T11:02:46.7422681Z",
+      "duration": "PT8.6160992S",
+      "trackingId": "0f5c3d14-db18-4065-bc0a-d2ee4e714036",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.Insights/components/mldataanalaysi5396005264",
+        "resourceType": "Microsoft.Insights/components",
+        "resourceName": "mldataanalaysi5396005264"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/B326100EFF67CD1D",
+    "operationId": "B326100EFF67CD1D",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-07-05T11:03:10.0404962Z",
+      "duration": "PT31.9143273S",
+      "trackingId": "7f41e7b2-8f13-4220-8b2e-fc45232a4847",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.Storage/storageAccounts/mldataanalaysi2608789975",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "mldataanalaysi2608789975"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/3DDD38CB0769AAFD",
+    "operationId": "3DDD38CB0769AAFD",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-07-05T11:02:46.6081786Z",
+      "duration": "PT8.4820097S",
+      "trackingId": "a4f34b4b-3fb1-447d-a79f-2bb4b4e03cf3",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.ContainerRegistry/registries/Kamalml",
+        "resourceType": "Microsoft.ContainerRegistry/registries",
+        "resourceName": "Kamalml"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/BB8D3B443AF0A2F0",
+    "operationId": "BB8D3B443AF0A2F0",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-07-05T11:03:02.398495Z",
+      "duration": "PT24.2723261S",
+      "trackingId": "12bf67b4-1cf7-4bef-90f4-cbcf0b2732b5",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.KeyVault/vaults/mldataanalaysi8605420089",
+        "resourceType": "Microsoft.KeyVault/vaults",
+        "resourceName": "mldataanalaysi8605420089"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/5f5a8c88-783c-4974-a343-ccbebde95e6d/resourceGroups/machinelearning-kamal/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/08585445879312781681",
+    "operationId": "08585445879312781681",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-07-05T11:03:38.6492827Z",
+      "duration": "PT0.5788351S",
+      "trackingId": "0ebc9d6f-644f-4a9b-8d36-31dea3bcee02",
+      "statusCode": "OK"
+    }
+  }
+]
