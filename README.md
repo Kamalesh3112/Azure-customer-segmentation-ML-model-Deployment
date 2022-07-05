@@ -23,6 +23,11 @@ A cloud based deployment project that was implemented using Microsoft Azure clou
 
 ### Cloud service : Microsoft Azure
 
+**Services used from Azure**
+
+- Compute Instances -> Virtual Machine
+- AI & Machine Learning(Analytics) -> Machine Learning
+
 **List of steps undergone in this project**
 
 > Creating and configuringas following
