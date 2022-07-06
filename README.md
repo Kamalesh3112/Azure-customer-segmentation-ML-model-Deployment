@@ -65,4 +65,4 @@ A cloud based deployment project that was implemented using Microsoft Azure clou
 >, Shreya Bodla
 
 
-**The complete procedure of this work will be uploaded in the form of pdf soon into this repositery as this project requires a final development**
+**The complete procedure of this work has been uploaded in the form of pdf soon into this repositery as this project requires a final development with renamed as Machine Learning model - Deployment in Azure**
